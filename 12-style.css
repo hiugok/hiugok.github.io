@@ -1,0 +1,95 @@
+* {
+  margin: 0; /* ややこしいのでマージンは一旦0に設定しておく */
+  /* box-sizing: border-box; ここで設定しておくと便利 */
+}
+
+body {
+  width: 900px;
+  background-color: bisque;
+}
+
+h1 {
+  background-color: chocolate;
+  color: ivory;
+  text-align: center;
+  font-size: 3em;
+  margin: 20px 0 30px;
+  border-radius: 20px;
+}
+
+#side {
+  /* 幅は200pxで固定 */
+  width: 200px;
+}
+
+nav ul {
+  text-align: center;
+  float: left;
+}
+
+nav li {
+  /* 配色はh1と同じ */
+  margin-bottom: 10px;
+  background-color: chocolate;
+  border-radius: 20px 0 0 20px;
+  list-style: none;
+  color: ivory;
+  margin: 20px 0 30px;
+  /* margin-leftをh1のborder幅と同じに設定すると丁度よい */
+  /* heightと同じ高さでline-heightを設定すると文字が上下中央にくる（上下paddingよりマシな方法） */
+  height: 50px;
+}
+
+a {
+}
+
+#message {
+  font-size: 80%;
+  color: chocolate;
+  background-color: ivory;
+  margin-left: 20px;
+  float: left;
+}
+
+main {
+  margin-left: 250px;
+  float: rigth;
+  /* 左メニューとの間のスペースが50px程度になるよう、幅などを適切に設定する */
+}
+
+/* sectionで囲むと見出しのマージンが効かなくなるので、sectionに対してマージンを設定する */
+
+main h2 {
+  margin-bottom: 1ex;
+  border-left: chocolate 5em;
+  border: chocolate;
+}
+
+h3 {
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+main ul {
+  padding-left: 1ex;
+}
+
+main li {
+  list-style-type: none;
+}
+
+#cafe {
+  width: 350px;
+}
+
+#map {
+  width: 650px;
+}
+
+footer {
+  width: 900px;
+  text-align: center;
+  color: chocolate;
+}
