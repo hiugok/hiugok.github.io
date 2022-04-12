@@ -106,3 +106,86 @@ a {
 body {
   background-color: rgb(73, 1, 1);
 }
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: left;
+}
+
+article {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #999;
+}
+article figure {
+  margin-right: 20px;
+}
+.text_content {
+  max-width: 750px;
+}
+article figure img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+}
+a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 12px;
+}
+
+li + li {
+  border-left: 2px solid white;
+}
+
+.fade-in-bottom {
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sentence {
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
