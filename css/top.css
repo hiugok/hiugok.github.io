@@ -102,3 +102,7 @@ a {
   position: relative;
   text-decoration: none;
 }
+
+body {
+  background-color: rgb(73, 1, 1);
+}
