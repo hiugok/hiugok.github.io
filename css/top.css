@@ -192,18 +192,38 @@ h2 {
   text-align: center;
   color: white;
 }
-h3 {
+
+h4 {
   text-align: center;
-}
-a {
   color: white;
-  position: relative;
-  text-decoration: none;
 }
-li {
-  display: inline-block;
-  list-style: none;
-  padding: 12px;
+
+
+
+h3{
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #999;
 }
+
+b{
+  text-align: left;
+  color: white;
+  font-size: 2em;
+  
+}
+
+p{
+text-align: left;
+  color: white;
+  font-size: 1em
+}
+
+.figure2{
+  text-align: right;
+}
+
 
 
