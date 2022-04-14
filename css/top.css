@@ -154,8 +154,8 @@ li + li {
 .fade-in-bottom {
   opacity: 0;
   animation-name: fadein-bottom;
-  animation-delay: 2s;
-  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -222,12 +222,11 @@ text-align: left;
 }
 
 .figure2{
-  text-align: right;
+  display: flex;
+  position: relative;
 }
 
-.figure3{
-  text-align: left;
-}
+
 
 
 
