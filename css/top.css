@@ -121,7 +121,7 @@ article {
   display: flex;
   margin-bottom: 20px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 30px;
   box-sizing: border-box;
   box-shadow: 0 0 5px #999;
 }
